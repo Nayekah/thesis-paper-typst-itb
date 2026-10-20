@@ -1,0 +1,18 @@
+{
+  "files.eol": "\r\n",
+  "[typst]": {
+    "editor.defaultFormatter": "myriad-dreamin.tinymist",
+    "editor.formatOnSave": true
+  },
+  "tinymist.exportPdf": "onSave",
+  "tinymist.outputPath": "$root/build/$name",
+  "tinymist.projectResolution": "lockDatabase",
+  "tinymist.rootPath": "${workspaceFolder}",
+  "tinymist.formatterMode": "typstyle",
+  "tinymist.formatterPrintWidth": 80,
+  "tinymist.formatterIndentSize": 2,
+  "tinymist.formatterProseWrap": "none",
+  "tinymist.previewFeature": "enable",
+  "tinymist.preview.refresh": "onType"
+}
+

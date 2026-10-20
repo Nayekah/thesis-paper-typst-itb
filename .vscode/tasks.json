@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Typst: build thesis PDF",
+      "type": "shell",
+      "command": "${workspaceFolder}\\make.bat",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Typstyle: format all",
+      "type": "shell",
+      "command": "${workspaceFolder}\\make.bat",
+      "args": ["format"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Typstyle: check formatting",
+      "type": "shell",
+      "command": "${workspaceFolder}\\make.bat",
+      "args": ["format-check"],
+      "problemMatcher": []
+    }
+  ]
+}
+
