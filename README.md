@@ -79,6 +79,8 @@ Accept the recommendation to install the [Tinymist Typst](https://marketplace.vi
 
 ### 3. Start the preview
 
+<img width="856" height="621" alt="Screenshot 2026-10-20 174918" src="https://github.com/user-attachments/assets/740333f4-115d-41f8-89b7-fae6bc2150d1" />
+
 Open the Command Palette with `Ctrl+Shift+P`, then run **Typst Preview**. Tinymist uses `tinymist.lock` to recognize `paper/main.typ` as the project entry point.
 
 > [!TIP]
