@@ -1,0 +1,27 @@
+name: Build Typst document
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Typstyle
+        run: cargo install typstyle --version 0.15.2 --locked
+      - name: Check Typst formatting
+        run: typstyle --check --line-ending=crlf paper
+      - uses: typst-community/setup-typst@v4
+      - name: Compile PDF
+        run: mkdir -p build && typst compile --root . paper/main.typ build/main.pdf
+      - uses: actions/upload-artifact@v4
+        with:
+          name: thesis-paper
+          path: build/main.pdf
+
