@@ -24,4 +24,3 @@ jobs:
         with:
           name: thesis-paper
           path: build/main.pdf
-
