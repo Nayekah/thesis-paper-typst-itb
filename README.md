@@ -33,9 +33,9 @@
 
 The template keeps the paper source separate from implementation code. All document sources live in `paper/`, while programs discussed in the paper belong in `impl/`. The compiled document is written to `build/main.pdf`.
 
-## Why this template?
+## Supported workflows
 
-Writing a final-project report should be about the content, not repeatedly fixing margins, numbering, or the table of contents. This project provides one consistent workflow from writing to PDF:
+The template supports a complete authoring workflow from structured source files to a reviewed PDF:
 
 - live preview and automatic PDF export through Tinymist;
 - consistent Typst source formatting through Typstyle;
