@@ -24,7 +24,7 @@
     <img src="https://img.shields.io/badge/Typstyle-v0.15.2-6C5CE7" alt="Typstyle v0.15.2">
   </a>
   <a href="./LICENSE">
-    <img src="https://img.shields.io/badge/license-Apache--2.0-3DA639" alt="Apache License 2.0">
+    <img src="https://img.shields.io/badge/license-MIT-3DA639" alt="MIT License">
   </a>
 </p>
 
